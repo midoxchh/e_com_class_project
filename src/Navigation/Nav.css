@@ -1,0 +1,35 @@
+:root{
+  --turquoise: #5dd9c1ff;
+  --aquamarine: #acfcd9ff;
+  --african-violet: #b084ccff;
+  --ultra-violet: #665687ff;
+  --russian-violet: #190933ff;
+}
+nav {
+  display: flex;
+  /* border-bottom: 2px solid #f3f3f3; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+  margin-left: 2rem;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  /* background:  #5dd9c1ff; */
+  background: transparent;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(109, 109, 109);
+  position: relative;
+  width: 17rem;
+}
+
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+}

@@ -1,0 +1,60 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  z-index: -2;
+}
+:root{
+  --turquoise: #5dd9c1ff;
+  --aquamarine: #acfcd9ff;
+  --african-violet: #b084ccff;
+  --ultra-violet: #665687ff;
+  --russian-violet: #190933ff;
+}
+.card {
+  margin: 20px;
+  border: 2px solid #ffffff;
+  background-color:#ffffff;
+  box-shadow: 0px 0px 6px rgb(233, 233, 233) ;
+  padding: 20px;
+  cursor: pointer;
+  width: min-content;
+  height: auto;
+}
+
+.card-img {
+  width: 13rem;
+  margin-bottom: 1rem;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-reviews {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.rating-star {
+  color: #d5ab55;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .bag-icon {
+  color: #535353;
+} */
